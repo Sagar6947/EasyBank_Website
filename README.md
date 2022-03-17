@@ -1,4 +1,5 @@
-# easy-bank Frontend mentor chanllange
+# easy-bank challange by Frontend mentor
 
 ## Demo
-[https://suspicious-bhaskara-9a9ab9.netlify.app/](https://suspicious-bhaskara-9a9ab9.netlify.app/)
+
+[https://easybank-sagar.netlify.app/]
