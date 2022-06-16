@@ -1,14 +1,8 @@
-const navLinks = document.querySelector('.nav-links');
-const hamburgerBtn = document.querySelector('.hamburger-btn');
-const toggleImg = document.querySelector('#toggle-img');
+let navbar = document.querySelector('.nav-links');
+let menuBtn = document.querySelector('.fa-bars');
 
-hamburgerBtn.addEventListener('click', () => {
- navLinks.classList.toggle('open');
- isOpen = navLinks.classList.contains('open');
- if (isOpen) {
-    toggleImg.src = './img/icon-close.svg';
- } else {
-    toggleImg.src = './img/icon-hamburger.svg';
- }
-})
+menuBtn.onclick = () => {
+   menuBtn.classList.toggle('fa-times');
+   navbar.classList.toggle('open');
+}
 
